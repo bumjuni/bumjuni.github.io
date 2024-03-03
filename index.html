@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css_grad/style.css" />
+        <title>Welcome</title>
+    </head>
+    <body class="container">
+        <div class="item" id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="item">
+            <h2 id="calender">00:00</h2>    
+            <h1 id="clock">00:00</h1>
+        </div>
+        <div class="item">
+            <h3 id="mood"></h3>
+        </div>
+        <div class="item">
+            <form id="todo-form">
+                <h3>What are you suppposed to do today?</h3>
+                <input type="text" required>
+            </form>
+            <ul id="todo-list"></ul>
+        </div>
+        <div class="item">
+            <form class="hidden" id="login-form">
+                <input
+                required
+                type="text"
+                value="Guest"
+                />
+                <input type="submit" value="Log In" />
+            </form>
+            <h1 class="hidden" id="greeting"></h1>
+        </div>
+        <div class="item">
+            <h3>shortcuts</h3>
+            <form id="shortcut-form">
+                <input type="text" placeholder="NAME" required>
+            </form>
+            <form id="url-form">
+                <input type="text" placeholder="URL" required>
+            </form>
+            <ul id="shortcut-list"></ul>
+        </div>
+        <div class="item">
+        </div>
+        <div class="item" id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <script src="js_grad/greetings.js"></script>
+        <script src="js_grad/clock.js"></script>
+        <script src="js_grad/weather.js"></script>
+        <script src="js_grad/background.js"></script>
+        <script src="js_grad/todo.js"></script>
+        <script src="js_grad/shortcuts.js"></script>
+        <script src="js_grad/quotes.js"></script>
+    </body>
+</html>
